@@ -16,6 +16,7 @@
 		2941611915DB55E5003210B3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2941611715DB55E5003210B3 /* MainStoryboard.storyboard */; };
 		2941611C15DB55E5003210B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2941611B15DB55E5003210B3 /* ViewController.m */; };
 		2941613515DBCCE5003210B3 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2941613415DBCCE5003210B3 /* CoreBluetooth.framework */; };
+		327835E016AB589F001F1ED2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 327835DF16AB589F001F1ED2 /* Default-568h@2x.png */; };
 		C208957F16524BD800381C8F /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = C208957D16524BD800381C8F /* BLE.m */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		2941611A15DB55E5003210B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		2941611B15DB55E5003210B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		2941613415DBCCE5003210B3 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		327835DF16AB589F001F1ED2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C208957C16524BD800381C8F /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
 		C208957D16524BD800381C8F /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
 		C208957E16524BD800381C8F /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 		294160F615DB55E5003210B3 = {
 			isa = PBXGroup;
 			children = (
+				327835DF16AB589F001F1ED2 /* Default-568h@2x.png */,
 				2941610B15DB55E5003210B3 /* BLEChat */,
 				2941610415DB55E5003210B3 /* Frameworks */,
 				2941610215DB55E5003210B3 /* Products */,
@@ -144,7 +147,7 @@
 		294160F815DB55E5003210B3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0440;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Red Bear Company Limited";
 			};
 			buildConfigurationList = 294160FB15DB55E5003210B3 /* Build configuration list for PBXProject "BLE Chat" */;
@@ -171,6 +174,7 @@
 			files = (
 				2941611015DB55E5003210B3 /* InfoPlist.strings in Resources */,
 				2941611915DB55E5003210B3 /* MainStoryboard.storyboard in Resources */,
+				327835E016AB589F001F1ED2 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +221,9 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -244,6 +251,9 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
